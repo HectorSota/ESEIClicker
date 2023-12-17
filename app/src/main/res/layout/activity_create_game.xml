@@ -14,4 +14,13 @@
         android:layout_centerInParent="true"
         android:text="Create New Game" />
 
+        <Button
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:layout_below="@id/createGameButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
 </RelativeLayout>

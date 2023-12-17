@@ -16,8 +16,10 @@ class CreateGameActivity : ComponentActivity() {
         setContentView(R.layout.activity_create_game)
 
         val createGameButton: Button = findViewById(R.id.createGameButton)
+        val LogOutButton: Button = findViewById(R.id.logOutButton)
 
         createGameButton.setOnClickListener { onCreateGameButtonClick(it) }
+        LogOutButton.setOnClickListener { onLogOutButtonClick(it) }
     }
 
 
@@ -25,4 +27,10 @@ class CreateGameActivity : ComponentActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
+
+    private fun onLogOutButtonClick(view: View){
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+    }
+
 }
