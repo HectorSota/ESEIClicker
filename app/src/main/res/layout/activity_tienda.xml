@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/itemUno"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="1 galleta/s"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/itemDos"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="5 galletas/s"
+        android:layout_below="@id/itemUno"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/itemTres"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="10 galletas/s"
+        android:layout_below="@id/itemDos"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/itemCuatro"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="25 galletas/s"
+        android:layout_below="@id/itemTres"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/itemCinco"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="50 galletas/s"
+        android:layout_below="@id/itemCuatro"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/itemSeis"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="100 galletas/s"
+        android:layout_below="@id/itemCinco"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Vuelve atrás"
+        android:layout_below="@id/itemSeis"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/lblTotalShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntuación:"
+        android:layout_above="@+id/itemUno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize= "42sp"/>
+
+
+</RelativeLayout>
